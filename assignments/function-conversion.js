@@ -5,19 +5,24 @@ console.log("Function was invoked!");
 };
 myFunction();
 
-let anotherFunction = function (param) {
+let anotherFunction = function (param)=>{
   return param;
 };
+console.log
 anotherFunction("Example");
 
-let add = function (param1, param2) {
+let add =(param1, param2)=>{
   return param1 + param2;
 };
+console.log(add(1,2));
 add(1,2);
 
-let subtract = function (param1, param2) {
+let subtract =(param1, param2)=>{
+
   return param1 - param2;
+  
 };
+console.log(subtract(1,2));
 // subtract(1,2);
 
 
