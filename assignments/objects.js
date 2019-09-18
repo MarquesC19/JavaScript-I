@@ -3,11 +3,6 @@
 // ==== Challenge 1: Writing Objects ==== 
 // HR needs some information on the new interns put into a database.  Given an id, email, first name, and gender. Create an object for each person in the company list:
 
-1,const data=mmelloy0@psu.edu,Mitzi,F
-2,kdiben1@tinypic.com,Kennan,M
-3,kmummery2@wikimedia.org,Keven,M
-4,gmartinson3@illinois.edu,Gannie,M
-5,adaine5@samsung.com,Antonietta,F
 
 // Example format of an intern object: 1,examples@you.edu,Example,F
 let example = {
@@ -18,20 +13,23 @@ let example = {
 }
 
 // Write your intern objects here:
-const mitzi = { id: 1, email: 'mmelloy0@psu.edu', name: 'Mitzi', gender: 'F' }
-const kennan ={ id: 2,
+const Mitzi = { id: 1, email: 'mmelloy0@psu.edu', name: 'Mitzi', gender: 'F' }
+const Kennan ={ id: 2,
   email: 'kdiben1@tinypic.com',
   name: 'Kennan',
-  gender: 'M' }
-const keven = { id: 3,
+  gender: 'M',
+speak:()=>{
+return('Kennan says hello')}
+}
+const Keven = { id: 3,
   email: 'kmummery2@wikimedia.org',
   name: 'Keven',
   gender: 'M' }
-const gannie = { id: 4,
+const Gannie = { id: 4,
   email: 'gmartinson3@illinois.edu',
   name: 'Gannie',
   gender: 'M' }
-const antonietta = { id: 5,
+const Antonietta = { id: 5,
   email: 'adaine5@samsung.com',
   name: 'Antonietta',
   gender: 'F' }
@@ -44,15 +42,15 @@ console.log(Mitzi.name);
 // Kennan's ID
 console.log(Kennan.id);
 // Keven's email
-console.log(Kevins.email);
+console.log(Keven.email);
 // Gannie's name
-console.log(Gannies.name);
+console.log(Gannie.name);
 // Antonietta's Gender
-console.log(Antonietta.gender)
+console.log(Antonietta.gender);
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
-// console.log(kennan.speak());
-consorl
+console.log(Kennan.speak());
+
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
 
